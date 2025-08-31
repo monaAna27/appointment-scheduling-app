@@ -1,1 +1,1 @@
-# appointment-scheduling-app
+Appointment Scheduling App

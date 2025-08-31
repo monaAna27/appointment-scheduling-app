@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  border: 1px solid black;
+  padding: 15px 0;
+}
+.header__inner {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 70px;
+       column-gap: 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+.header__menu {
+  margin-left: auto;
+}
+.header__menu-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.header__menu-link {
+  color: black;
+  text-decoration: none;
+}
+.header__button {
+  border: 1px solid black;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: black;
+  text-decoration: none;
+}
+
+.content {
+  padding: 50px 0;
+}
+.content__inner {
+  width: 1140px;
+  margin: 0 auto;
+}
+.content__body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  row-gap: 40px;
+}
+.content__post {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+.content__post-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.content__post-desc {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.content__post-datetime {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 5px;
+}
+.content__post-actions {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.content__post-edit {
+  margin-top: 10px;
+  color: blue;
+}
+.content__post-delete {
+  margin-top: 10px;
+  color: red;
+}
+.content__post-finish {
+  margin-top: 10px;
+  color: green;
+}
+.content__form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 300px;
+}
+.content__form-label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.content__form-input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+.content__form-button {
+  margin-top: 40px;
+  margin-right: auto;
+  padding: 13px 25px;
+  background-color: #fff;
+  border: 1px solid black;
+}
+
+.active {
+  border: 1px solid red;
+}/*# sourceMappingURL=styles.css.map */
